@@ -1,93 +1,121 @@
-*{
+* {
     font-family: sans-serif;
 }
 
-.home-banner{
-height: 500px;
-width: 100%;
-
+body {
+    background-color: #131516;
 }
-.home-banner::after{
+
+.home-banner {
+    height: 500px;
+    width: 100%;
+}
+
+.half-width::after {
     content: "";
     display: block;
     clear: both;
 }
-.half-width{
+
+.half-width {
     float: left;
     width: 40%;
     padding: 2%;
     margin-left: 5%;
     margin-left: 60px;
-    
 }
-.half-width img{
+
+.half-width img {
     height: 400px;
     width: 400px;
 }
+
 .home-banner-img2 {
     float: left;
     width: 40%;
-    
 }
-.home-banner-h1{
+
+.home-banner-h1 {
     color: #777777;
     font-size: 2.5em;
-
 }
-.home-banner-h2{
+
+.home-banner-h2 {
     color: #777777;
 }
-.home-banner-p{
+
+.home-banner-p {
     color: #777777;
     line-height: 1.5em;
     padding-bottom: 25px;
-    }
-.home-banner-b{
-background-color:#8845f4;
-color: aliceblue;
-padding: 13px 42px;
-border-radius: 42px;
-text-decoration: none;
 }
-.text-highlight{
+
+.home-banner-b {
+    background-color: #8845f4;
+    color: aliceblue;
+    padding: 13px 42px;
+    border-radius: 42px;
+    text-decoration: none;
+}
+
+.text-highlight {
     color: #8845f4;
 }
-.heading{
-display: block;
-margin-right: 50%;
-margin-top: 20%;
-padding: 5%;
-font-family: sans-serif;
-font-weight: bold;
-font-size: 40px;
-color: #777777;
+
+.big-one {
+    height: 270px;
 }
-#exp1{
-background-color: white;
-box-shadow:10px 10px 30px black;
-border-top-right-radius: 15px;
-border-bottom-right-radius: 15px;
-margin-bottom: 5%;
-border-left:  5px solid #8845f4;
-height: 75%;
+
+.heading {
+    display: block;
+    margin-right: 50%;
+    margin-top: 20%;
+    padding: 5%;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    color: #777777;
 }
-#exp2{
-    background-color: white;
-    box-shadow:10px 10px 30px black;
+
+.exp {
+    height: 500px;
+    width: 100%;
+}
+
+.exp::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.exp-card {
+    background-color: rgb(228, 223, 201);
+    box-shadow: 10px 10px 30px black;
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
     margin-bottom: 5%;
-    border-left:  5px solid #8845f4;
-    height: 75%;
-    padding-bottom: 45px;
-    }
-h2{
+    border-left: 5px solid #8845f4;
+    height: 300px;
+}
+
+h2 {
     font-weight: bold;
     font-family: Poppins, sans-serif;
     font-size: 30px;
     color: #777777
 }
-h3{
-    font-family: Poppins ,sans-serif;
-    color:tomato ;
+
+h3 {
+    font-family: Poppins, sans-serif;
+    color: tomato;
+}
+
+span {
+    color: tomato;
+}
+
+.footer-text {
+    color: #2e7a27;
+    height: 200px;
+    text-align: center;
 }
